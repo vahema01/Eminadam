@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE detection-run SYSTEM "http://kismetwireless.net/kismet-3.1.0.dtd">
+
+<detection-run kismet-version="airodump-ng-1.0" start-time="Sun Oct  9 15:45:07 2022">
+
+	<wireless-network number="1" type="infrastructure" first-time="Sun Oct  9 15:45:07 2022" last-time="Sun Oct  9 15:45:08 2022">
+		<SSID first-time="Sun Oct  9 15:45:07 2022" last-time="Sun Oct  9 15:45:08 2022">
+			<type>Beacon</type>
+			<max-rate>130.000000</max-rate>
+			<packets>11</packets>
+			<beaconrate>10</beaconrate>
+			<encryption>WPA+PSK</encryption>
+			<encryption>WPA+AES-CCM</encryption>
+			<essid cloaked="false">lidyabalo</essid>
+		</SSID>
+		<BSSID>28:EE:52:70:3B:30</BSSID>
+		<manuf>Unknown</manuf>
+		<channel>1</channel>
+		<freqmhz>2412 26</freqmhz>
+		<maxseenrate>130000</maxseenrate>
+		<carrier>IEEE 802.11b+</carrier>
+		<encoding>CCK</encoding>
+		<packets>
+			<LLC>0</LLC>
+			<data>0</data>
+			<crypt>0</crypt>
+			<total>26</total>
+			<fragments>0</fragments>
+			<retries>0</retries>
+		</packets>
+		<datasize>0</datasize>
+		<wireless-client number="1" type="established" first-time="Sun Oct  9 15:45:07 2022" last-time="Sun Oct  9 15:45:08 2022">
+			<client-mac>00:08:22:0C:DC:FB</client-mac>
+			<client-manuf>Unknown</client-manuf>
+			<channel>1</channel>
+			<maxseenrate>1.000000</maxseenrate>
+			<carrier>IEEE 802.11b+</carrier>
+			<encoding>CCK</encoding>
+			<packets>
+				<LLC>0</LLC>
+				<data>0</data>
+				<crypt>0</crypt>
+				<total>8</total>
+				<fragments>0</fragments>
+				<retries>0</retries>
+			</packets>
+			<snr-info>
+				<last_signal_dbm>-88</last_signal_dbm>
+				<last_noise_dbm>0</last_noise_dbm>
+				<last_signal_rssi>-88</last_signal_rssi>
+				<last_noise_rssi>0</last_noise_rssi>
+				<min_signal_dbm>-88</min_signal_dbm>
+				<min_noise_dbm>0</min_noise_dbm>
+				<min_signal_rssi>1024</min_signal_rssi>
+				<min_noise_rssi>1024</min_noise_rssi>
+				<max_signal_dbm>-88</max_signal_dbm>
+				<max_noise_dbm>0</max_noise_dbm>
+				<max_signal_rssi>-88</max_signal_rssi>
+				<max_noise_rssi>0</max_noise_rssi>
+			</snr-info>
+		</wireless-client>
+		<wireless-client number="2" type="established" first-time="Sun Oct  9 15:45:07 2022" last-time="Sun Oct  9 15:45:08 2022">
+			<client-mac>4C:63:71:BB:6B:23</client-mac>
+			<client-manuf>Unknown</client-manuf>
+			<channel>1</channel>
+			<maxseenrate>1.000000</maxseenrate>
+			<carrier>IEEE 802.11b+</carrier>
+			<encoding>CCK</encoding>
+			<packets>
+				<LLC>0</LLC>
+				<data>0</data>
+				<crypt>0</crypt>
+				<total>2</total>
+				<fragments>0</fragments>
+				<retries>0</retries>
+			</packets>
+			<snr-info>
+				<last_signal_dbm>-93</last_signal_dbm>
+				<last_noise_dbm>0</last_noise_dbm>
+				<last_signal_rssi>-93</last_signal_rssi>
+				<last_noise_rssi>0</last_noise_rssi>
+				<min_signal_dbm>-93</min_signal_dbm>
+				<min_noise_dbm>0</min_noise_dbm>
+				<min_signal_rssi>1024</min_signal_rssi>
+				<min_noise_rssi>1024</min_noise_rssi>
+				<max_signal_dbm>-93</max_signal_dbm>
+				<max_noise_dbm>0</max_noise_dbm>
+				<max_signal_rssi>-93</max_signal_rssi>
+				<max_noise_rssi>0</max_noise_rssi>
+			</snr-info>
+		</wireless-client>
+		<wireless-client number="3" type="established" first-time="Sun Oct  9 15:45:08 2022" last-time="Sun Oct  9 15:45:08 2022">
+			<client-mac>52:C9:C5:7B:AA:B2</client-mac>
+			<client-manuf>Unknown</client-manuf>
+			<channel>1</channel>
+			<maxseenrate>1.000000</maxseenrate>
+			<carrier>IEEE 802.11b+</carrier>
+			<encoding>CCK</encoding>
+			<packets>
+				<LLC>0</LLC>
+				<data>0</data>
+				<crypt>0</crypt>
+				<total>1</total>
+				<fragments>0</fragments>
+				<retries>0</retries>
+			</packets>
+			<snr-info>
+				<last_signal_dbm>-87</last_signal_dbm>
+				<last_noise_dbm>0</last_noise_dbm>
+				<last_signal_rssi>-87</last_signal_rssi>
+				<last_noise_rssi>0</last_noise_rssi>
+				<min_signal_dbm>-87</min_signal_dbm>
+				<min_noise_dbm>0</min_noise_dbm>
+				<min_signal_rssi>1024</min_signal_rssi>
+				<min_noise_rssi>1024</min_noise_rssi>
+				<max_signal_dbm>-87</max_signal_dbm>
+				<max_noise_dbm>0</max_noise_dbm>
+				<max_signal_rssi>-87</max_signal_rssi>
+				<max_noise_rssi>0</max_noise_rssi>
+			</snr-info>
+		</wireless-client>
+		<snr-info>
+			<last_signal_dbm>-87</last_signal_dbm>
+			<last_noise_dbm>0</last_noise_dbm>
+			<last_signal_rssi>-87</last_signal_rssi>
+			<last_noise_rssi>0</last_noise_rssi>
+			<min_signal_dbm>-87</min_signal_dbm>
+			<min_noise_dbm>0</min_noise_dbm>
+			<min_signal_rssi>1024</min_signal_rssi>
+			<min_noise_rssi>1024</min_noise_rssi>
+			<max_signal_dbm>-87</max_signal_dbm>
+			<max_noise_dbm>0</max_noise_dbm>
+			<max_signal_rssi>-87</max_signal_rssi>
+			<max_noise_rssi>0</max_noise_rssi>
+		</snr-info>
+		<bsstimestamp>59884134798</bsstimestamp>
+		<cdp-device></cdp-device>
+		<cdp-portid></cdp-portid>
+	</wireless-network>
+</detection-run>

@@ -1,0 +1,9 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+28:EE:52:70:3B:30, 2022-10-09 15:45:07, 2022-10-09 15:45:08,  1, 130, WPA2, CCMP, PSK, -87,       11,        0,   0.  0.  0.  0,   9, lidyabalo, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+00:08:22:0C:DC:FB, 2022-10-09 15:45:07, 2022-10-09 15:45:08, -88,        8, 28:EE:52:70:3B:30,
+4C:63:71:BB:6B:23, 2022-10-09 15:45:07, 2022-10-09 15:45:08, -93,        2, 28:EE:52:70:3B:30,
+52:C9:C5:7B:AA:B2, 2022-10-09 15:45:08, 2022-10-09 15:45:08, -87,        1, 28:EE:52:70:3B:30,
+
