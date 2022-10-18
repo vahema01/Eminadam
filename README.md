@@ -1,2 +1,0 @@
-# Eminadam
-Eminadam Tool
