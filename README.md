@@ -7,4 +7,3 @@ Firstly UPDATE the tool then launch.
 `python3 update.py`
 
 By Vahema
-https://vahema.w3spaces.com
